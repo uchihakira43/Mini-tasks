@@ -1,0 +1,28 @@
+public class Magic {
+	public static void main(String[] args) {
+    int myNumber = 7;
+    //myNumber is the original number
+    int stepOne = myNumber;
+    int stepTwo = stepOne + myNumber;
+    int stepThree = stepTwo;
+    int stepFour = stepThree + 17;
+    int stepFive = stepFour;
+    int stepSix = stepFive / 6;
+
+    System.out.println(stepSix);
+
+//Below recreated by manipulating magicNumber variable only
+    int myNumberm = 7;
+    int magicNumberm = myNumberm;
+    magicNumberm *= 2;
+    magicNumberm += 17;
+    magicNumberm /= 6;
+    System.out.println(magicNumberm);
+
+
+
+
+		
+
+	}
+}
