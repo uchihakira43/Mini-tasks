@@ -1,0 +1,11 @@
+//The kelvin variable is constant and has a value of 293
+const kelvin = 293;
+//The celsius variable is cosntant and is 273 less then kelvin
+const celsius = kelvin - 273;
+//Fahrenheit is constant and this is it's formula. The Math.floor method will round fahrenheit down to the nearest whole number
+const fahrenheit = Math.floor(celsius * (9/5) + 32);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+const Newton = Math.floor(celsius * (33/100)); 
+console.log(`Using Newton's scale, the Newton value is ${Newton}!`);
