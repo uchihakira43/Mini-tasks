@@ -1,0 +1,24 @@
+#This is an area calculator 
+print "Calculator is up and running!"
+
+option = "Enter C for Circle or T for triangle"
+print option
+name = raw_input("What's your name? ")
+
+if name == 'c':
+  print "Hello circle"
+  radius = float(raw_input("Please enter the radius: "))
+  area = 3.14159 * (radius ** 2)
+  print "Your area is " + str(area)
+elif name == 't':
+  print "Hello triangle"
+  base = float(raw_input("Enter base: "))
+  height = float(raw_input("Enter height: "))
+  area = 0.5* base * height
+else:
+  print "Error invalid shape!"
+
+print "Exiting..."
+
+
+

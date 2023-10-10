@@ -1,0 +1,31 @@
+"""
+Description: Angry Rabbits
+Author:  Amal
+"""
+
+# The template for the story
+
+
+
+print "Mad Libs has started"
+
+name = raw_input("Enter a name: ")
+adjective1 = raw_input("adjective1 needed: ")
+adjective2 = raw_input("adjective2 needed: ")
+adjective3 = raw_input("adjective3 needed: ")
+
+verb1 = raw_input("verb1 needed: ")
+noun1 = raw_input("noun1 needed: ")
+noun2 = raw_input("noun2 needed: ")
+
+animal = raw_input("Give an animal name: ")
+food = raw_input("Give a food name: ")
+fruit = raw_input("Give a fruit name: ")
+superhero = raw_input("Give a superhero name: ")
+country = raw_input("Give a country name: ")
+dessert = raw_input("Give a dessert name: ")
+year = raw_input("Give a year name: ")
+
+STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world." % (name, adjective1, adjective2, animal, food, verb1, noun1, fruit, adjective3, name, superhero, name, country, name, dessert, name, year, noun2)
+
+print STORY
